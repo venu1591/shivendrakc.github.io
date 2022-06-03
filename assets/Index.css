@@ -404,7 +404,7 @@ h3{
     font-size: var(--h2-font-size);
     color: var(--col_grey);
 }
-/*Services*/
+/*Services*/ /*
 .services .service-item{
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -435,7 +435,7 @@ h3{
 }
 .text a{
     color: var(--col_primary);
-}
+} */
 /*Portfolio*/
 .portfolio .portfolio-filter{
     flex: 0 0 100%;
@@ -610,14 +610,14 @@ h3{
     height: 100%;
     padding: 1rem 1rem 1rem 0;
     background: none;
-    color: #fff;
+    color: var(--col_dark);
     outline: none;
     border: none;
     z-index: 1;
 }
 .contact-label{
     position: absolute;
-    top: .40rem;
+    top: -.8rem;
     width: 100%;
     font-size: var(--small-font-size);
     transition: .3s;
@@ -629,7 +629,7 @@ h3{
     resize: none;
 }
 .contact-input:focus + .contact-label{
-    top: -.75rem;
+    font-size: 18px;
     left: 0;
     z-index: 10;
     color: var(--col_primary)
