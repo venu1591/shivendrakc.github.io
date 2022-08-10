@@ -397,7 +397,7 @@ h3{
 .fact-item{
     flex: 0 0 50%;
     max-width: 50%;
-    margin-top: var(--m-2-5);
+    margin-top: 5rem;
     text-align: center;
 }
 .fact-item i{
