@@ -342,6 +342,11 @@ h3{
     display: block;
     animation: ani-mouse 1.5s linear infinite;
 }
+.profile-img{
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
 /*About*/
 .about-img{
     flex: 0 0 25%;
